@@ -1,0 +1,10 @@
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+new_a = []
+count = 0
+user_num = int(input("Enter a number: "))
+for num in a:
+    if num < user_num:
+        new_a.append(num)
+        count = count + 1
+print("number of occurances less than " + str(user_num) + " = " +str(count))
+print("numbers in list less than " + str(user_num) + " = ", new_a)
