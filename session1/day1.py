@@ -1,4 +1,5 @@
 # variable initialization
+
 name = "aravinth"
 number = 10
 
@@ -64,3 +65,6 @@ thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 thislist.append("blackcurrent")
 print(thislist)
+
+
+#operators < > =

@@ -1,5 +1,4 @@
-print("Enter your age")
-age = int(input())
+age = int(input('Enter your age:'))
 # print(type(age))
 # int(input())
 print("age =", age)

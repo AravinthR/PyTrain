@@ -1,13 +1,20 @@
 name1 = "aravinth"
 name2 = "rakesh"
-num1 = 10
-num2 = 20
+num1 = int(input('Enter first number: '))
+num2 = int(input('Enter 2nd number: '))
 
-if num1 > num2:
-    print("num1 greater than num2")
+
+# writing a function to determine largest of two numbers
+def find_largest(n1, n2):
+    bool12 = True if n1 > n2 else False
+    return bool12
+
+
+bool1 = find_largest(num1, num2)
+if bool1:
+    print("{} greater than {}".format(num1, num2))
 else:
-    print("num2 greater than num1")
-
+    print("{} greater than {}".format(num2, num1))
 
 var1 = 1+2j
 if type(var1) == int:
